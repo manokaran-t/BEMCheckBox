@@ -44,7 +44,6 @@ public final class BEMAnimationManager: NSObject {
     
     /** Returns a `CABasicAnimation` which animates the opacity.
      * @param reverse The direction of the animation. Set to YES if the animation should go from opacity 0 to 1, or false for the opposite.
-     * @return Returns the `CABasicAnimation` object.
      */
     @objc public func opacityAnimationReverse(_ reverse: Bool) -> CABasicAnimation {
         let animation = CABasicAnimation(keyPath: "opacity")
